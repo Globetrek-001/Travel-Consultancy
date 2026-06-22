@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact GlobeTrek Solutions | Request Consultation</title>
+    <meta
+      name="description"
+      content="Contact GlobeTrek Solutions by WhatsApp, phone, email, Instagram, or inquiry form for study abroad, visa, travel package, and consultation support."
+    />
+    <link rel="icon" href="assets/globetrek-logo.jpeg" />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="GlobeTrek Solutions home">
+        <img src="assets/globetrek-logo.jpeg" alt="GlobeTrek Solutions logo" />
+        <span>
+          <strong>GlobeTrek Solutions</strong>
+          <small>Travels, tours and more</small>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html" data-page="home">Home</a>
+        <a href="about.html" data-page="about">About</a>
+        <a href="services.html" data-page="services">Services</a>
+        <a href="study-abroad.html" data-page="study">Study Abroad</a>
+        <a href="travel-packages.html" data-page="packages">Travel Packages</a>
+        <a href="contact.html" data-page="contact">Contact</a>
+      </nav>
+    </header>
+
+    <main data-current-page="contact">
+      <section class="page-hero">
+        <img
+          class="hero-media"
+          src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1800&q=80"
+          alt="Client sending an online inquiry"
+        />
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Contact</p>
+          <h1>Tell GlobeTrek what you need help with.</h1>
+          <p>
+            Send an inquiry for study abroad, visa support, travel packages, reservations, appointment
+            booking, or general consultation.
+          </p>
+        </div>
+      </section>
+
+      <section class="section-inner contact-layout">
+        <div class="contact-panel">
+          <p class="section-kicker">Reach the team</p>
+          <h2>Quick contact options</h2>
+          <div class="contact-methods">
+            <a href="https://wa.me/2348038876566">
+              <span>WhatsApp</span>
+              <strong>+234 803 887 6566</strong>
+            </a>
+            <a href="tel:+353833774530">
+              <span>Secondary phone</span>
+              <strong>+353 83 377 4530</strong>
+            </a>
+            <a href="mailto:globetrektravels@outlook.com">
+              <span>Email</span>
+              <strong>globetrektravels@outlook.com</strong>
+            </a>
+            <a href="https://www.instagram.com/GlobeTrek.travels/">
+              <span>Instagram</span>
+              <strong>@GlobeTrek.travels</strong>
+            </a>
+          </div>
+          <p class="contact-note">
+            Online consultation is available. No physical office address has been listed yet.
+          </p>
+        </div>
+
+        <form class="contact-form" id="consultation-form" novalidate>
+          <div class="form-heading">
+            <p class="section-kicker">Inquiry form</p>
+            <h2>Request a consultation</h2>
+          </div>
+          <label>
+            Full name
+            <input type="text" name="name" autocomplete="name" required />
+          </label>
+          <label>
+            Email or phone number
+            <input type="text" name="contact" autocomplete="email" required />
+          </label>
+          <label>
+            Service interest
+            <select name="service" required>
+              <option value="">Choose a service</option>
+              <option>Application Profiling</option>
+              <option>Form Filling</option>
+              <option>Document Assessment</option>
+              <option>Flight/Hotel Reservations</option>
+              <option>Document Upload/Submission</option>
+              <option>Appointment Booking</option>
+              <option>General Consultation</option>
+              <option>Study Abroad</option>
+              <option>Travel Packages</option>
+            </select>
+          </label>
+          <label>
+            Destination or country
+            <input type="text" name="destination" placeholder="Optional" />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <p class="form-status" role="status"></p>
+          <button class="btn btn-primary" type="submit">Send inquiry on WhatsApp</button>
+          <a class="email-fallback" href="mailto:globetrektravels@outlook.com">Prefer email? Send a message instead.</a>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="section-inner footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <img src="assets/globetrek-logo.jpeg" alt="GlobeTrek Solutions logo" />
+            <span>GlobeTrek Solutions</span>
+          </a>
+          <p>Education consultancy, student recruitment, visa support, travel packages, and travel consultation.</p>
+        </div>
+        <div>
+          <h2>Contact</h2>
+          <a href="tel:+2348038876566">+234 803 887 6566</a>
+          <a href="tel:+353833774530">+353 83 377 4530</a>
+          <a href="mailto:globetrektravels@outlook.com">globetrektravels@outlook.com</a>
+        </div>
+        <div>
+          <h2>Follow</h2>
+          <a href="https://www.instagram.com/GlobeTrek.travels/">Instagram: @GlobeTrek.travels</a>
+          <a href="https://wa.me/2348038876566">WhatsApp consultation</a>
+        </div>
+      </div>
+      <div class="footer-note">
+        Consultations and document support do not guarantee visa approval. Final decisions are made by
+        the relevant institutions, embassies, and visa authorities.
+      </div>
+    </footer>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
