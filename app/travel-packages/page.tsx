@@ -23,9 +23,9 @@ export default function TravelPackagesPage() {
       <section className="section-inner package-intro">
         <div className="section-heading">
           <p className="section-kicker">Trip support</p>
-          <h2>Travel help for holidays, visits, business trips, and special plans.</h2>
+          <h2>Travel help for holidays, visits, business trips, group trips, and special plans.</h2>
         </div>
-        <div className="card-grid three">
+        <div className="card-grid four">
           <article className="package-card">
             <img
               src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80"
@@ -54,6 +54,16 @@ export default function TravelPackagesPage() {
             <div>
               <h3>Custom packages</h3>
               <p>Flexible planning for destinations, stays, activities, and itinerary management.</p>
+            </div>
+          </article>
+          <article className="package-card">
+            <img
+              src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=80"
+              alt="Group of travellers on a trip"
+            />
+            <div>
+              <h3>Group trips</h3>
+              <p>Planning and coordination support for group travel, tours, and team trips.</p>
             </div>
           </article>
         </div>
