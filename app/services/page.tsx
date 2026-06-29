@@ -9,38 +9,38 @@ interface Service {
 const SERVICES: Service[] = [
   {
     num: "01",
+    title: "General Consultation",
+    desc: "Offering expert advice on travel planning and itinerary management.",
+  },
+  {
+    num: "02",
     title: "Application Profiling",
     desc: "Evaluating client eligibility and requirements for travel applications.",
   },
   {
-    num: "02",
+    num: "03",
     title: "Form Filling",
     desc: "Assisting in accurately completing necessary application forms.",
   },
   {
-    num: "03",
+    num: "04",
     title: "Document Assessment",
     desc: "Reviewing and verifying client-submitted documents.",
   },
   {
-    num: "04",
+    num: "05",
     title: "Flight/Hotel Reservations",
     desc: "Providing tentative flight and accommodation reservations when required.",
   },
   {
-    num: "05",
+    num: "06",
     title: "Document Upload/Submission",
     desc: "Facilitating document submissions for travel processes.",
   },
   {
-    num: "06",
+    num: "07",
     title: "Appointment Booking",
     desc: "Scheduling embassy or application centre appointments.",
-  },
-  {
-    num: "07",
-    title: "General Consultation",
-    desc: "Offering expert advice on travel planning and itinerary management.",
   },
 ];
 
