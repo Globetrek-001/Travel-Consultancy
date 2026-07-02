@@ -298,6 +298,7 @@ a {
   font-size: 1.02rem;
 }
 
+.team-section,
 .services-preview,
 .services-list-section,
 .split-section,
@@ -703,6 +704,53 @@ a {
 
 .email-fallback:hover {
   text-decoration: underline;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 22px;
+  margin-top: 24px;
+}
+
+.team-card {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+  box-shadow: 0 10px 26px rgba(15, 63, 59, 0.06);
+}
+
+.team-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.team-card div {
+  padding: 18px;
+}
+
+.team-card h3 {
+  margin: 0 0 4px;
+  color: var(--teal-900);
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.team-card .role {
+  margin: 0 0 10px;
+  color: var(--teal-700);
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.team-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
 }
 
 @media (max-width: 980px) {

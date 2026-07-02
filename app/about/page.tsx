@@ -41,6 +41,65 @@ export default function AboutPage() {
         </div>
       </section>
 
+      <section className="section-inner team-section">
+        <div className="section-heading">
+          <h2 className="section-kicker">Meet the team</h2>
+        </div>
+        <div className="team-grid">
+          <article className="team-card">
+            <img
+              src="/samuel-globetrek.jpeg"
+              alt="Samuel Ibitoye Adeiza"
+            />
+            <div>
+              <h3>Samuel Ibitoye Adeiza</h3>
+              <p className="role">Travel Consultant</p>
+              <p>
+                A seasoned travel and customer service professional with extensive experience in
+                travel consultancy, business operations, and client relationship management. With a
+                proven track record in flight reservations, visa assistance, and travel planning,
+                Samuel is dedicated to delivering seamless travel experiences and exceptional
+                customer satisfaction. His strong leadership skills and customer-first approach make
+                him a valuable asset in helping clients explore the world with confidence.
+              </p>
+            </div>
+          </article>
+          <article className="team-card">
+            <img
+              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80"
+              alt="Team member"
+            />
+            <div>
+              <h3>Team Member Name</h3>
+              <p className="role">Role / Title</p>
+              <p>Short bio about this team member and their role at GlobeTrek Solutions.</p>
+            </div>
+          </article>
+          <article className="team-card">
+            <img
+              src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=600&q=80"
+              alt="Team member"
+            />
+            <div>
+              <h3>Team Member Name</h3>
+              <p className="role">Role / Title</p>
+              <p>Short bio about this team member and their role at GlobeTrek Solutions.</p>
+            </div>
+          </article>
+          <article className="team-card">
+            <img
+              src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=80"
+              alt="Team member"
+            />
+            <div>
+              <h3>Team Member Name</h3>
+              <p className="role">Role / Title</p>
+              <p>Short bio about this team member and their role at GlobeTrek Solutions.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
       <section className="value-band">
         <div className="section-inner">
           <div className="section-heading">
