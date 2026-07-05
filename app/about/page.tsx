@@ -43,8 +43,7 @@ export default function AboutPage() {
 
       <section className="section-inner team-section">
         <div className="section-heading">
-          <p className="section-kicker">Meet the team</p>
-          <h2>The people behind GlobeTrek Solutions.</h2>
+          <h2 className="section-kicker">Meet the team</h2>
         </div>
         <div className="team-grid">
           <article className="team-card">
