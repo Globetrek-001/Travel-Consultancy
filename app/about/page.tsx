@@ -43,7 +43,7 @@ export default function AboutPage() {
 
       <section className="section-inner team-section">
         <div className="section-heading">
-          <h2 className="section-kicker">Meet the team</h2>
+          <h2 className="section-kicker">Our partners</h2>
         </div>
         <div className="team-grid">
           <article className="team-card">
