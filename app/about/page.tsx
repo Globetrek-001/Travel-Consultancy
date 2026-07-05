@@ -14,7 +14,7 @@ export default function AboutPage() {
           <p className="eyebrow">About the company</p>
           <h1>Guidance for people preparing to study, travel, and move with purpose.</h1>
           <p>
-            GlobeTrek Solutions supports clients with practical planning, organized documentation,
+            GlobeTrek Solutions supports clients with practical planning, organised documentation,
             consultation, and travel-related assistance.
           </p>
         </div>
@@ -36,7 +36,7 @@ export default function AboutPage() {
           </p>
           <p>
             The business combines education consultancy, student recruitment,
-            travel packages, and general travel consultation into one organized experience.
+            travel packages, and general travel consultation into one organised experience.
           </p>
         </div>
       </section>
@@ -93,7 +93,7 @@ export default function AboutPage() {
               <p>
                 A Travel Consultant dedicated to making travel planning simple, seamless, and
                 stress-free. Works with individuals, families, students, and businesses to create
-                personalized travel experiences—from holidays and business travel to visa support
+                personalised travel experiences—from holidays and business travel to visa support
                 and study abroad journeys. With a keen eye for detail and a commitment to
                 exceptional service, ensures every trip is carefully planned so clients can travel
                 with confidence and peace of mind.
@@ -115,7 +115,7 @@ export default function AboutPage() {
               <p>Clients get practical next steps based on the service they need and the goal they share.</p>
             </article>
             <article className="value-card">
-              <h3>Organized preparation</h3>
+              <h3>Organised preparation</h3>
               <p>Documents, forms, appointments, and reservations are handled with attention to detail.</p>
             </article>
             <article className="value-card">

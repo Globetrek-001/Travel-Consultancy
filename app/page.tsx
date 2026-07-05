@@ -38,7 +38,7 @@ export default function HomePage() {
           </div>
           <div>
             <p className="section-kicker">Clear support for important journeys</p>
-            <h2>From applications to arrival plans, GlobeTrek keeps the process organized.</h2>
+            <h2>From applications to arrival plans, GlobeTrek keeps the process organised.</h2>
             <p>
               Whether the goal is school admission, flight planning, or a tailored trip,
               the website guides visitors to the right service and makes it easy to contact the team.
