@@ -69,22 +69,31 @@ export default function StudyAbroadPage() {
         </div>
       </section>
 
-      <section className="section-inner image-copy-grid">
-        <div className="feature-image">
-          <img
-            src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1400&q=80"
-            alt="Students studying together on campus"
-          />
+      <section className="section-inner logo-carousel-section">
+        <div className="section-heading">
+          <p className="section-kicker">Our partner institutions</p>
+          <h2>Universities and schools we work with.</h2>
         </div>
-        <div className="feature-copy">
-          <p className="section-kicker">What to prepare</p>
-          <h2>Good planning starts before an application is submitted.</h2>
-          <ul className="check-list">
-            <li>Academic records and personal details</li>
-            <li>Preferred study destination and course direction</li>
-            <li>Passport, travel history, and supporting documents</li>
-            <li>Questions about appointment requirements</li>
-          </ul>
+        <div className="logo-track-wrapper">
+          <div className="logo-track">
+            <img src="/school-1.jpeg" alt="Partner university logo" />
+            <img src="/school-2.jpeg" alt="Partner university logo" />
+            <img src="/school-3.jpeg" alt="Partner university logo" />
+            <img src="/school-4.jpeg" alt="Partner university logo" />
+            <img src="/school-5.jpeg" alt="Partner university logo" />
+            <img src="/school-6.jpeg" alt="Partner university logo" />
+            <img src="/school-7.jpeg" alt="Partner university logo" />
+            <img src="/school-8.jpeg" alt="Partner university logo" />
+            {/* Duplicate for seamless infinite scroll */}
+            <img src="/school-1.jpeg" alt="Partner university logo" />
+            <img src="/school-2.jpeg" alt="Partner university logo" />
+            <img src="/school-3.jpeg" alt="Partner university logo" />
+            <img src="/school-4.jpeg" alt="Partner university logo" />
+            <img src="/school-5.jpeg" alt="Partner university logo" />
+            <img src="/school-6.jpeg" alt="Partner university logo" />
+            <img src="/school-7.jpeg" alt="Partner university logo" />
+            <img src="/school-8.jpeg" alt="Partner university logo" />
+          </div>
         </div>
       </section>
     </>
